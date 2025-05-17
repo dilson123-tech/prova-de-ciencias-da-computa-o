@@ -1,0 +1,62 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Pytest cache
+.pytest_cache/
+
+# Virtual environments
+venv/
+ENV/
+env/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# IDEs e editores
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs e arquivos temporários
+*.log
+*.tmp
+
+# Arquivos do sistema (Windows, macOS)
+Thumbs.db
+.DS_Store
+
+# Arquivos de configuração do Python
+*.pyo
+*.pyd
+
+# Arquivos de cobertura de testes
+.coverage
+htmlcov/
+.coverage.*
+
+# Arquivos de checkpoints Jupyter
+.ipynb_checkpoints/
+
+# Arquivos de banco de dados temporários
+*.sqlite3
+
+# Arquivos gerados por pipenv
+Pipfile.lock
+
+# Arquivos de cache do pip
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Arquivos do mypy
+.mypy_cache/
+
+# Arquivos do pytype
+.pytype/
+
+# Arquivos do cython
+cython_debug/
