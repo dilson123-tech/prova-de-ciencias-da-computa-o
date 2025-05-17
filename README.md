@@ -1,3 +1,10 @@
+# Estudos de Python - Prova Prática
+
+![Python Version](https://img.shields.io/badge/python-3.8%2B-blue)
+![License](https://img.shields.io/badge/license-MIT-green)
+![Repo Size](https://img.shields.io/github/repo-size/dilson123-tech/prova-de-ciencias-da-computa-o)
+![Last Commit](https://img.shields.io/github/last-commit/dilson123-tech/prova-de-ciencias-da-computa-o)
+
 Estudos de Python - Prova Prática
 Este repositório contém arquivos criados a partir de uma prova prática de Python. Reestruturei cada questão como exercício separado para estudar e fixar os principais conceitos da linguagem.
 
