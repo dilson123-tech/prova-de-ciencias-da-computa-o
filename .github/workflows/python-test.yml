@@ -1,0 +1,31 @@
+name: Python Test
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.8'
+      - name: Run scripts
+        run: |
+          python entrada-validacao.py
+          python estruturas-condicionais.py
+          python lacos-contadores.py
+          python funcoes.py
+          python descontos.py
+          python contagem-cedulas.py
+          python tabuada.py
+          python venda-ingresso.py
+          python contagem-crescente-regressiva.py
+          python media-1-100.py
+          python varredura-texto.py
